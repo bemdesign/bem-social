@@ -1,4 +1,24 @@
 .social-icon_round_instagram-default {
-	background-color: #D52D88; 
-	background-image: url('social-icon_round_instagram-inverse.svg');
+	position: relative;
+	overflow: hidden;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF)
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background-image: url('social-icon_round_instagram-inverse.svg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
 }
