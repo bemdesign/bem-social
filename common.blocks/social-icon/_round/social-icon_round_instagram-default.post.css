@@ -1,22 +1,22 @@
 .social-icon_round_instagram-default {
 	position: relative;
 	overflow: hidden;
-	&:before {
+	&::before {
 		content: '';
 		position: absolute;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		bottom: 0px;
-		background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 	}
-	&:after {
+	&::after {
 		content: '';
 		position: absolute;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		bottom: 0px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 		background-image: url('social-icon_round_instagram-inverse.svg');
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
