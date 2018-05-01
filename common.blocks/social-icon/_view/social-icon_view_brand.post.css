@@ -1,0 +1,40 @@
+.social-icon_name_codepen .icon_view_brand svg {
+  fill: #000;
+}
+
+.social-icon_name_dribbble .icon_view_brand svg {
+  fill: #EA4C89;
+}
+
+.social-icon_name_facebook .icon_view_brand svg {
+  fill: #435697;
+}
+
+.social-icon_name_github .icon_view_brand svg {
+  fill: #181717;
+}
+
+.social-icon_name_ok .icon_view_brand svg {
+  fill: #EE8208;
+}
+
+.social-icon_name_instagram .icon_view_brand svg {
+  fill: #8a3ab9;
+}
+
+.social-icon_name_telegram: .icon_view_brand svg {
+  fill: #299ED7;
+}
+
+.social-icon_name_twitter: .icon_view_brand svg {
+  fill: #1DA1F2;
+}
+
+.social-icon_name_vk: .icon_view_brand svg {
+  fill: #4E7097;
+}
+
+.social-icon_name_ya: .icon_view_brand svg {
+  fill: #ff0000;
+}
+ 
